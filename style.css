@@ -1,0 +1,485 @@
+html {
+  cursor: url("whiterat_norm.cur"), auto;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: pixel;
+  src: url(04B_30__.TTF);
+}
+
+@font-face {
+  font-family: kawaii;
+  src: url(PinkChicken-Regular.ttf);
+}
+@font-face {
+  font-family: bunny;
+  src: url(FuturaHandwritten.ttf);
+}
+img {
+  max-width: 100%;
+  border-radius: 5%;
+}
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #ff90da;
+  color: #ffe4e4;
+}
+
+.box {
+  margin: 50px auto;
+  background: #f7819b;
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: kawaii;
+  position: relative;
+  font-size: 20px;
+  max-width: min(100%, 500px);
+}
+
+
+.hasami{
+  background: #bcffcf;
+  width: 500px;
+  margin: 50px auto;
+
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+  font-weight: 900;
+  color: rgb(61, 102, 94);
+  font-family: kawaii;
+  position: relative;
+  font-size: 20px;
+}
+.yukio{
+  background: #ffd26a;
+  width: 500px;
+  margin: 50px auto;
+
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: kawaii;
+  position: relative;
+  font-size: 20px;
+}
+.kaede{
+  background: #a24295;
+  width: 500px;
+  margin: 50px auto;
+
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: kawaii;
+  position: relative;
+  font-size: 20px;
+}
+.hitoku{
+  background: #85c6e9;
+  width: 500px;
+  margin: 50px auto;
+
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: kawaii;
+  position: relative;
+  font-size: 20px;
+}
+.raven{
+  background: #8a409f;
+  width: 500px;
+  margin: 50px auto;
+
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: kawaii;
+  position: relative;
+  font-size: 20px;
+}
+
+.charactername
+{
+  font-size: 40px;
+  font-family:bunny;
+}
+.descriptionsentence
+{
+  font-family:bunny;
+}
+
+p {
+  max-width: 35em;
+  font-size: 10px;
+  margin: 10px;
+  
+}
+.dot{
+  pointer-events: none;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background: #ffc4d1;
+  text-align: center;
+  font-family: pixel;
+  font-size: 35px;
+  z-index: 8;
+  max-width: 100%;
+  max-width: min(100%, 7000px);
+}
+.gaming{
+  margin: auto;
+  width: min-content;
+  text-align: center;
+  color: #e990ba;
+}
+a {
+  text-decoration: none;
+  margin: 15px;
+  color: ghostwhite;
+  max-width: 100%;
+}
+#cat {
+  position:absolute;
+  pointer-events: none;
+  }
+body {
+  background-image: url("pexels-madison-inouye-1831234.jpg");
+  max-width: 100%;
+}
+
+a:hover {
+  color: #da7ded;
+  cursor: url("whiterat_link.cur"), auto;
+  transition: 0.5s;
+}
+
+.images {
+  text-align: center;
+}
+.images2 {
+  text-align: center;
+  border-radius: 50%;
+}
+
+details {
+  text-align: center;
+  font-size: 25px;
+  font-family: kawaii;
+  color: #fff;
+}
+
+details summary {
+  width: max-content;
+  margin: 0 auto;
+}
+
+details summary::marker {
+  color: #b95d82;
+  content: "♡";
+}
+
+
+.clickable
+{
+  color: hotpink;
+  text-decoration: underline;
+}
+.clickable:hover
+{
+  cursor: url("whiterat_link.cur"), auto;
+  
+}
+.link
+{
+  text-decoration: none;
+  margin: 15px;
+  color: rgb(195, 165, 185);
+  font-size: 20px;
+}
+.dropdown {
+  display:inline-block;
+  position: relative;
+  z-index: 9;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(52, 19, 37, 0.4);
+  font-size: 25px;
+  background-color: #ffdced;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #ff70ae;
+  padding: 5px;
+  text-decoration: none;
+  font-family: kawaii;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #f78be0;
+}
+ 
+button {
+  background-color: white;
+  color: rgb(188, 70, 117);
+  border: 4px solid #e990ba;
+  font-family:kawaii;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 3px solid;
+  outline-color: rgba(255, 75, 123, 0.5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: url("whiterat_link.cur"), auto;
+  z-index: 0;
+} 
+
+button:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+}
+.text
+{
+  font-family: bunny;
+  font-size: 30px;
+ color:rgb(169, 79, 108);
+ max-width: 30cm;
+ text-align: center;
+margin: auto;
+}
+#box {
+  background-color: rgb(247, 150, 208);
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;  
+  height: 800px;
+  width: 600px;
+  max-width: 100%;
+}
+
+#backdrop {
+  top: 2em;
+  margin: auto;
+  position: relative;
+  background-color: rgb(246, 240, 255);
+  border-radius: 20px;
+  height: 700px;
+  width: 400px;
+  max-width: 100%;
+}
+.buttonBox {
+  position: relative;
+  margin: 40px;
+  display: block;
+  z-index: 7;
+  max-width: 100%;
+}
+#hairback {
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+#girl {
+  background-image: url("Dressup/base.png");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 400px;
+  position: absolute;
+  z-index: 1;
+  max-width: 100%;
+}
+#dress {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 800px;
+  width: 400px;
+  z-index: 6;
+  max-width: 100%;
+}
+#shoes {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 800px;
+  width: 400px;
+  z-index: 1;
+  max-width: 100%;
+}
+#hair {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 800px;
+  width: 400px;
+  z-index: 6;
+  max-width: 100%;
+}
+#face {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 800px;
+  width: 400px;
+  z-index: 6;
+  max-width: 100%;
+}
+
+
+.dress0 {
+  background-image: url("Dressup/chasami.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  z-index: 4;
+  max-width: 100%;
+}
+.dress1 {
+  background-image: url("Dressup/chitoku.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  z-index: 4;
+  max-width: 100%;
+}
+
+.dress2 {
+  background-image: url("Dressup/ckaede.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  z-index: 4;
+  max-width: 100%;
+}
+.dress3 {
+  background-image: url("Dressup/cyukio.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  z-index: 4;
+  max-width: 100%;
+}
+
+
+.shoes1 {
+  background-image: url("Dressup/accbandaids.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+.shoes2 {
+  background-image: url("Dressup/acckaede.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+.shoes3 {
+  background-image: url("Dressup/accsocks.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+.shoes4 {
+  background-image: url("Dressup/acctongue.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+
+
+.hair0 {
+  background-image: url("Dressup/hairhasami.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+.hair1 {
+  background-image: url("Dressup/hairhitoku.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+.hair2 {
+  background-image: url("Dressup/haiyukio.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+.hair3 {
+  background-image: url("Dressup/hairkaede.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+
+
+.face1 {
+  background-image: url("Dressup/yesblue.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+.face2 {
+  background-image: url("Dressup/eyesgeay.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+.face3 {
+  background-image: url("Dressup/eyeshasami.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+.face4 {
+  background-image: url("Dressup/eyesyellow.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  max-width: 100%;
+}
+
